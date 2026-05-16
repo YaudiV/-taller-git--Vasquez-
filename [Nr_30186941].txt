@@ -1,0 +1,15 @@
+{
+ var [5][4] int matriz_est;
+ read(matriz_Est);
+ var int filas;
+ var int columnas;
+ read(filas); // Lee el numero ingresado por el usuario el cual se interpreta como la fila que busaca el mismo
+ read(columnas); // // Lee el numero ingresado por el usuario el cual se interpreta como la fila que busaca el mismo
+
+ var [0,1] posicion = tam(matriz_est) // expresión usada en Seudocódigo para determinar el tamaño de nuestra matriz donde la pos[0] son las filas y la pos[1] son las columnas
+ if(0 <= filas < posicion[0] and 0 <= columnas < posicion[1]){ 
+   print(matriz_Est[filas][columnas]); // si la condición se cumple se imprimirá lo que hay en la casilla que solicita el cliente
+ }else{
+   print(-1);
+ }
+}

@@ -48,10 +48,3 @@ while not fin:
     else:
         print("Continuando en el sistema...")
         
-
-
-# suma = 0
-# for i in range(len(matriz)):
-#     for j in range(len(matriz[i])):
-#         suma = suma + matriz[i][j]
-# print(f"la suma de los valores de nuestra matriz es: {suma}")
